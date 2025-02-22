@@ -24,7 +24,7 @@ import {
   ScrollToTop,
   PrivateRoute,
 } from "./router/index.js";
-
+import About from "./screens/about/About.jsx";
 function App() {
   return (
     <>
@@ -189,6 +189,18 @@ function App() {
                   <DashboardLayout>
                     <UserProfile />
                   </DashboardLayout>
+                </Layout>
+              </PrivateRoute>
+            }
+          />
+              <Route
+            path="/about"
+            element={
+              <PrivateRoute>
+                <Layout>
+                  
+                    <About />
+               
                 </Layout>
               </PrivateRoute>
             }

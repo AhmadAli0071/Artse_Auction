@@ -17,12 +17,12 @@ export const ProductsDetailsPage = () => {
           <div className="flex justify-between gap-8">
             <div className="w-1/2">
               <div className="h-[70vh]">
-                <img src="https://bidout-wp.b-cdn.net/wp-content/uploads/2022/10/Image-14.jpg" alt="" className="w-full h-full object-cover rounded-xl" />
+                <img src="https://artesauctions.com/wp-content/uploads/2016/11/Chiocchi-Cello-PG-6.2016-scaled.jpg" alt="" className="w-full h-full object-cover rounded-xl" />
               </div>
             </div>
             <div className="w-1/2">
               <Title level={2} className="capitalize">
-                Couple Wedding Ring
+              A good Cello by Gaetanno Chiocchi
               </Title>
               <div className="flex gap-5">
                 <div className="flex text-green ">
