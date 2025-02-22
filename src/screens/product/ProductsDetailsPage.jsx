@@ -22,7 +22,7 @@ export const ProductsDetailsPage = () => {
             </div>
             <div className="w-1/2">
               <Title level={2} className="capitalize">
-              A good Cello by Gaetanno Chiocchi .
+              A good Cello by Gaetanno Chiocchi 
               </Title>
               <div className="flex gap-5">
                 <div className="flex text-green ">
