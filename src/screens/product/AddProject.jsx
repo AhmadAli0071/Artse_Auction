@@ -2,17 +2,7 @@ import { CategoryDropDown, Caption, PrimaryButton, Title } from "../../router";
 
 import { commonClassNameOfInput } from "../../components/common/Design";
 
-const initialState = {
-  title: "",
-  description: "",
-  price: "",
-  height: "",
-  lengthpic: "",
-  width: "",
-  mediumused: "",
-  weigth: "",
-  category: null,
-};
+
 
 export const AddProduct = () => {
   return (
